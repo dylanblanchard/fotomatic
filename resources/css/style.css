@@ -5,14 +5,32 @@ html {
   font-size: 16px;
 }
 
+header {
+  font-family: "Roboto-Regular";
+  line-height: 1.6px;
+  color: #4A4A4A;
+  background-color: white;
+  z-index: 100%;
+  border-bottom: solid 1px #c6c1c1;
+  position: fixed;
+}
+
 .main-content {
   position: relative;
   top: 5.3125rem;
   /* To offset for fixed header. */
+  background-image: url(../images/banner-landingpage.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .center {
   text-align: center;
+}
+
+.banner {
+  padding-top: 170px;
+  padding-left: 100px;
 }
 
 .button {
@@ -27,6 +45,44 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 90%;
+  padding-bottom: 40px;
+}
+
+.content {
+  display: block;
+}
+
+.images-container {
+  display: flex;
+  max-width: 100%;
+  padding: 0 1%;
+}
+
+#quotes-section {
+  text-align: center;
+}
+
+#quoteme {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 30px;
+  font-family: Palatino-Italic;
+  line-height: 1.1;
+}
+
+#quoteme img {
+  padding-left: 30px;
+}
+
+footer {
+  height: 62px;
+}
+
+footer span {
+  font-size: 12px;
+  font-family: Roboto-Regular;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 760px) {
